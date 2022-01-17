@@ -10,7 +10,7 @@ export class GHService {
 
   getData():Observable<any>{
 
-    const url ="https://api.github.com/user"
+    const url ="https://api.github.com/users"
     return this.http.get<any>(url)
   }
 }
