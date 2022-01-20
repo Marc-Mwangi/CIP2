@@ -12,7 +12,7 @@
 }
 .p-pic:hover{
     border-radius: 8%;
-    transition: border-radius 1s;
+    transition: border-radius 2s;
     transition-timing-function: ease-in-out;
 }
 @media (max-width:480px) {
