@@ -1,4 +1,4 @@
-.trigger{
+#trigger{
     text-align: center;
     padding-top: 8%;
     background-color: aquamarine;
@@ -9,4 +9,23 @@
 .p-pic{
     width: 200px;
     border-radius: 100%;
+}
+
+@media (max-width:480px) {
+    #trigger{
+        height: 30vh ;
+    }
+    
+}
+@media (max-width:769px) {
+    #trigger{
+        height: 33vh ;
+    }
+    
+}
+@media (min-width:1025px) {
+    #trigger{
+        height: 40vh ;
+    }
+    
 }
