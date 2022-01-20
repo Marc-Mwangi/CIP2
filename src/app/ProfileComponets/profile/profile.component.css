@@ -1,0 +1,12 @@
+.trigger{
+    text-align: center;
+    padding-top: 8%;
+    background-color: aquamarine;
+    overflow: visible;
+    height: 30vh;
+
+}
+.p-pic{
+    width: 200px;
+    border-radius: 100%;
+}
