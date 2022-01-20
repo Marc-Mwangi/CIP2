@@ -10,7 +10,11 @@
     width: 200px;
     border-radius: 100%;
 }
-
+.p-pic:hover{
+    border-radius: 8%;
+    transition: border-radius 1s;
+    transition-timing-function: ease-in-out;
+}
 @media (max-width:480px) {
     #trigger{
         height: 30vh ;
