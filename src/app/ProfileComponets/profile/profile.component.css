@@ -47,8 +47,5 @@
     
 }
 #port{
-    position: relative;
-    bottom: -30vh;
-    height: 40vh;
-    background-color: red;
+    background-color: aquamarine;
 }

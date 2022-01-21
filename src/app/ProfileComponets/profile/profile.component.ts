@@ -26,9 +26,16 @@ export class ProfileComponent implements OnInit {
 
     })
   }
+  project1:string[];
+  project2:string[];
+  project3:string[];
+
   Repo(){
     this.repo.getRepo().subscribe((data)=>{
-      console.log(data[0].name);
+    this.project1 = data[0].name;
+    this.project2 = data[1].name;
+    this.project3 = data[2].name;
+    console.log(this.project1)
     })
   }
 
