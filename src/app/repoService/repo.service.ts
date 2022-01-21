@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+
 
 @Injectable({
   providedIn: 'root'
 })
-export class GhServiceService {
-
-
+export class RepoService {
   constructor( private http:HttpClient) {}
-  getData(){
-    return this.http.get<any>('https://api.github.com/users/Marc-Mwangi')
-   }
+  getRepo(){
+    return this.http.get<any>('https://api.github.com/users/Marc-Mwangi/repos')
+}
 }

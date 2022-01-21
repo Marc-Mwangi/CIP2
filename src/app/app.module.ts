@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { GhServiceService } from './gitApi/gh-service.service';
 import { UsersComponent } from './usercomp/users/users.component';
 import { NaviComponent } from './Navbar/navi/navi.component';
+import { RepoService } from './repoService/repo.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,10 @@ import { NaviComponent } from './Navbar/navi/navi.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [GhServiceService],
+  providers: [
+    GhServiceService,
+    RepoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
