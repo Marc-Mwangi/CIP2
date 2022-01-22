@@ -1,3 +1,8 @@
+# Author
+Marc Mwangi
+
+# Project
+API consumption using githubs API
 
 # Description
 
